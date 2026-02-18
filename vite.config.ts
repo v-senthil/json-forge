@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.GITHUB_ACTIONS ? '/json-formatter/' : '/',
+  base: process.env.GITHUB_ACTIONS ? '/json-forge/' : '/',
   plugins: [react(), tailwindcss()],
   worker: {
     format: 'es',
