@@ -45,6 +45,7 @@ const tabs: { id: ViewTab; label: string; icon: React.ReactNode }[] = [
   { id: 'formatter', label: 'Formatter', icon: <Braces size={14} /> },
   { id: 'tree', label: 'Tree', icon: <TreePine size={14} /> },
   { id: 'diagram', label: 'Diagram', icon: <GitBranch size={14} /> },
+  { id: 'api-docs', label: 'API Docs', icon: <FileJson2 size={14} /> },
   { id: 'schema', label: 'Schema', icon: <FileJson size={14} /> },
   { id: 'diff', label: 'Diff', icon: <GitCompare size={14} /> },
   { id: 'search', label: 'Search', icon: <Search size={14} /> },

@@ -8,6 +8,7 @@ export type ViewTab =
   | 'formatter'
   | 'tree'
   | 'diagram'
+  | 'api-docs'
   | 'schema'
   | 'diff'
   | 'search'

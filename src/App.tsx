@@ -33,6 +33,7 @@ import { PathExplorerView } from './components/path-explorer/PathExplorerView';
 import { MockDataView } from './components/mock-data/MockDataView';
 import { DataMaskingView } from './components/data-masking/DataMaskingView';
 import { SchemaDriftView } from './components/schema-drift/SchemaDriftView';
+import { ApiDocsView } from './components/api-docs/ApiDocsView';
 import { ErrorBoundaryWrapper } from './components/common/ErrorBoundary';
 
 export default function App() {
@@ -47,6 +48,7 @@ export default function App() {
           {activeTab === 'formatter' && <FormatterView />}
           {activeTab === 'tree' && <TreeView />}
           {activeTab === 'diagram' && <DiagramView />}
+          {activeTab === 'api-docs' && <ApiDocsView />}
           {activeTab === 'schema' && <SchemaView />}
           {activeTab === 'diff' && <DiffView />}
           {activeTab === 'search' && <SearchView />}
